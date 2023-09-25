@@ -12,7 +12,7 @@ body {
     background: url('https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     overflow-x: hidden; /* Hide horizontal overflow */
     overflow-y: auto;   /* Enable vertical scrolling */
     height: 100vh;      /* Set a fixed height for the body */
