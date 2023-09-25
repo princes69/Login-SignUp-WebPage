@@ -12,7 +12,8 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    position: relative; /* Add this to position the pseudo-element relative to the body */
+    position: relative;
+ background-color: #E8BA9B; /* Add this to position the pseudo-element relative to the body */
 }
 
 /* Create a pseudo-element for the scrolling background */
@@ -29,7 +30,13 @@ body::before {
     z-index: -1; /* Place it behind the content */
     animation: scrollBg 35s linear infinite; /* Adjust animation duration as needed */
 }
-
+.wrapper {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    background: rgba(39, 39, 39, 0.4); /* Enable vertical scrolling within the frame */
+}
 @keyframes scrollBg {
     from {
         transform: translateY(0);
@@ -41,13 +48,7 @@ body::before {
 
 
 /* Add this CSS to limit the maximum height of the background frame */
-.wrapper {
-   display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 110vh;
-    background: rgba(39, 39, 39, 0.4);* Enable vertical scrolling within the frame */
-}
+
 .nav{
     position: fixed;
     top: 0;
