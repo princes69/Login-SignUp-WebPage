@@ -6,33 +6,15 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-@keyframes scrollBg {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(-330px);
-  }
-}
 
-.scroll-bg {
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  padding-bottom: 330px;
-  background-color: #E8BA9B;
-  background-image: url('https://andreivictor.ro/codepen/scroll-bg-animation-pinterest/bg_pasta_grid-3f880df3.jpg');
-  background-size: cover;
-  animation: scrollBg 35s linear forwards;
-}
-/*
+
 body{
      background: url('https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow: hidden;
-}*/
+}
 .wrapper{
     display: flex;
     justify-content: center;
