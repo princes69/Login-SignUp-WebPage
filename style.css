@@ -8,19 +8,20 @@
 }
 
 
-body{
-     background: url('https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg');
+body {
+    background: url('https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow: hidden;
+    overflow-x: hidden; /* Hide horizontal overflow */
+    overflow-y: auto;   /* Enable vertical scrolling */
+    height: 100vh;      /* Set a fixed height for the body */
 }
-.wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 110vh;
-    background: rgba(39, 39, 39, 0.4);
+
+/* Add this CSS to limit the maximum height of the background frame */
+.wrapper {
+    max-height: 100%; /* Limit the height of the background frame */
+    overflow-y: auto; /* Enable vertical scrolling within the frame */
 }
 .nav{
     position: fixed;
