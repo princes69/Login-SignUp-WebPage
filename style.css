@@ -25,14 +25,14 @@
   background-size: cover;
   animation: scrollBg 35s linear forwards;
 }
-<!--
+/*
 body{
      background: url('https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow: hidden;
-}-->
+}*/
 .wrapper{
     display: flex;
     justify-content: center;
