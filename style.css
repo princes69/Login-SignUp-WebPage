@@ -13,15 +13,16 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    overflow-x: hidden; /* Hide horizontal overflow */
-    overflow-y: auto;   /* Enable vertical scrolling */
-    height: 100vh;      /* Set a fixed height for the body */
+     overflow: hidden;     /* Set a fixed height for the body */
 }
 
 /* Add this CSS to limit the maximum height of the background frame */
 .wrapper {
-    max-height: 100%; /* Limit the height of the background frame */
-    overflow-y: auto; /* Enable vertical scrolling within the frame */
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    background: rgba(39, 39, 39, 0.4);* Enable vertical scrolling within the frame */
 }
 .nav{
     position: fixed;
